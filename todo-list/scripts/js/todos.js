@@ -16,3 +16,7 @@ $("input[type='text']").keypress(function(event){
 		$("ul").append("<li><span><i class='fa fa-trash-o' aria-hidden='true'></i></span> " + todoText + "</li>");
 	}
 });
+
+$(".fa-plus-square-o").click(function() {
+	$("input[type='text']").fadeToggle()
+})
