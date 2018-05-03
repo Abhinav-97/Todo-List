@@ -1,0 +1,25 @@
+{
+  "name": "what-todo",
+  "version": "1.0.0",
+  "description": "Todo list using HTML,CSS,JQuery and Backend in Express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abhinav-97/Todo-List.git"
+  },
+  "author": "Abhinav dutt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abhinav-97/Todo-List/issues"
+  },
+  "homepage": "https://github.com/Abhinav-97/Todo-List#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.9",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.17"
+  }
+}
